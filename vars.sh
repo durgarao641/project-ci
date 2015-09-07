@@ -14,8 +14,8 @@ export PUBLISH_HOST=127.0.0.1
 
 
 #TODO(step 9): Setup the mysql root database password and the one used by nodepool.
-export MYSQL_ROOT_PASSWORD=vedams123
-export MYSQL_PASSWORD=vedams123
+export MYSQL_ROOT_PASSWORD=changeme
+export MYSQL_PASSWORD=changeme
 
 export JENKINS_API_USER=jenkins
 #TODO(Optional) API Key is used if you secure your jenkins with a password
@@ -26,9 +26,8 @@ export JENKINS_API_USER=jenkins
 export JENKINS_CREDENTIALS_ID=f4f07d8e-2634-4d01-bcf6-7b8be996e062
 
 #TODO(step 10): (Optional) These are used by zuul to prepare commits.
-export GIT_EMAIL='durga.rao641@gmail.com'
-export GIT_NAME='MyVendor durga'
+export GIT_EMAIL='testing@example.com'
+export GIT_NAME='MyVendor Jenkins'
 
 #TODO(step 11): (Optional) If you would like zuul to be able to send e-mails, add in your SMTP server name here:
 #export SMTP_HOST=smtphost.example.com
-

@@ -39,7 +39,7 @@ diskimages:
       release: trusty
       env-vars:
         TMPDIR: /opt/dib_tmp
-	DIB_IMAGE_CACHE: /opt/dib_cache
+        DIB_IMAGE_CACHE: /opt/dib_cache
 
 providers:
   - name: local_01
@@ -66,4 +66,3 @@ targets:
 #      apikey: '<%= jenkins_api_key %>'
 #TODO: If you changed JENKINS_CREDENTIALS_ID in vars.sh, update it here too:
       credentials-id: 'f4f07d8e-2634-4d01-bcf6-7b8be996e062'
-
