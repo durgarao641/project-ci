@@ -31,3 +31,4 @@ export GIT_NAME='MyVendor Jenkins'
 
 #TODO(step 11): (Optional) If you would like zuul to be able to send e-mails, add in your SMTP server name here:
 #export SMTP_HOST=smtphost.example.com
+PROJECT_CONFIG=https://github.com/durgarao641/project-config-ci-name.git
